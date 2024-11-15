@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: LightYears
+# Project: build/LightYears
 # Configurations: Debug
 # =============================================================================
 
@@ -40,53 +40,6 @@ include CMakeFiles\rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = E$:\CPPStuff\LightYears\cmake-build-debug\
-# =============================================================================
-# Object build statements for EXECUTABLE target LightYears
-
-
-#############################################
-# Order-only phony target for LightYears
-
-build cmake_object_order_depends_target_LightYears: phony || CMakeFiles\LightYears.dir
-
-build CMakeFiles\LightYears.dir\main.cpp.obj.ddi: CXX_SCAN__LightYears_Debug E$:\CPPStuff\LightYears\main.cpp || cmake_object_order_depends_target_LightYears
-  DEP_FILE = CMakeFiles\LightYears.dir\main.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\LightYears.dir\main.cpp.obj.ddi
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
-  OBJ_FILE = CMakeFiles\LightYears.dir\main.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\LightYears.dir\main.cpp.obj.ddi.i
-
-build CMakeFiles\LightYears.dir\main.cpp.obj: CXX_COMPILER__LightYears_scanned_Debug E$:\CPPStuff\LightYears\main.cpp || cmake_object_order_depends_target_LightYears CMakeFiles\LightYears.dir\CXX.dd CMakeFiles\LightYears.dir\main.cpp.obj.modmap
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\LightYears.dir\main.cpp.obj.modmap
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
-  OBJECT_DIR = CMakeFiles\LightYears.dir
-  OBJECT_FILE_DIR = CMakeFiles\LightYears.dir
-  TARGET_COMPILE_PDB = CMakeFiles\LightYears.dir\
-  TARGET_PDB = LightYears.pdb
-  dyndep = CMakeFiles/LightYears.dir/CXX.dd
-
-build CMakeFiles\LightYears.dir\CXX.dd | E$:\CPPStuff\LightYears\cmake-build-debug\CMakeFiles\LightYears.dir\CXXModules.json CMakeFiles\LightYears.dir\main.cpp.obj.modmap: CXX_DYNDEP__LightYears_Debug CMakeFiles\LightYears.dir\main.cpp.obj.ddi
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target LightYears
-
-
-#############################################
-# Link the executable LightYears.exe
-
-build LightYears.exe: CXX_EXECUTABLE_LINKER__LightYears_Debug CMakeFiles\LightYears.dir\main.cpp.obj
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = CMakeFiles\LightYears.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\LightYears.dir\
-  TARGET_FILE = LightYears.exe
-  TARGET_IMPLIB = LightYears.lib
-  TARGET_PDB = LightYears.pdb
-
 
 #############################################
 # Utility command for edit_cache
@@ -111,9 +64,86 @@ build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# E:/CPPStuff/LightYears/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LightYearsGame
+
+
+#############################################
+# Order-only phony target for LightYearsGame
+
+build cmake_object_order_depends_target_LightYearsGame: phony || build\LightYears\CMakeFiles\LightYearsGame.dir
+
+build build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj.ddi: CXX_SCAN__LightYearsGame_Debug E$:\CPPStuff\LightYears\build\LightYears\src\main.cpp || cmake_object_order_depends_target_LightYearsGame
+  DEP_FILE = build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj.ddi
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
+  OBJ_FILE = build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj.ddi.i
+
+build build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj: CXX_COMPILER__LightYearsGame_scanned_Debug E$:\CPPStuff\LightYears\build\LightYears\src\main.cpp || cmake_object_order_depends_target_LightYearsGame build\LightYears\CMakeFiles\LightYearsGame.dir\CXX.dd build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj.modmap
+  DYNDEP_MODULE_MAP_FILE = build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj.modmap
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
+  OBJECT_DIR = build\LightYears\CMakeFiles\LightYearsGame.dir
+  OBJECT_FILE_DIR = build\LightYears\CMakeFiles\LightYearsGame.dir\src
+  TARGET_COMPILE_PDB = build\LightYears\CMakeFiles\LightYearsGame.dir\
+  TARGET_PDB = build\LightYears\LightYearsGame.pdb
+  dyndep = build/LightYears/CMakeFiles/LightYearsGame.dir/CXX.dd
+
+build build\LightYears\CMakeFiles\LightYearsGame.dir\CXX.dd | E$:\CPPStuff\LightYears\cmake-build-debug\build\LightYears\CMakeFiles\LightYearsGame.dir\CXXModules.json build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj.modmap: CXX_DYNDEP__LightYearsGame_Debug build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj.ddi
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LightYearsGame
+
+
+#############################################
+# Link the executable build\LightYears\LightYearsGame.exe
+
+build build\LightYears\LightYearsGame.exe: CXX_EXECUTABLE_LINKER__LightYearsGame_Debug build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = build\LightYears\CMakeFiles\LightYearsGame.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = build\LightYears\CMakeFiles\LightYearsGame.dir\
+  TARGET_FILE = build\LightYears\LightYearsGame.exe
+  TARGET_IMPLIB = build\LightYears\LightYearsGame.lib
+  TARGET_PDB = build\LightYears\LightYearsGame.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build build\LightYears\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\CPPStuff\LightYears\cmake-build-debug\build\LightYears && "E:\Clion\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build build\LightYears\edit_cache: phony build\LightYears\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build build\LightYears\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\CPPStuff\LightYears\cmake-build-debug\build\LightYears && "E:\Clion\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\CPPStuff\LightYears -BE:\CPPStuff\LightYears\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build build\LightYears\rebuild_cache: phony build\LightYears\CMakeFiles\rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
-build LightYears: phony LightYears.exe
+build LightYearsGame: phony build\LightYears\LightYearsGame.exe
+
+build LightYearsGame.exe: phony build\LightYears\LightYearsGame.exe
 
 # =============================================================================
 # Folder targets.
@@ -123,7 +153,14 @@ build LightYears: phony LightYears.exe
 #############################################
 # Folder: E:/CPPStuff/LightYears/cmake-build-debug
 
-build all: phony LightYears.exe
+build all: phony build\LightYears\all
+
+# =============================================================================
+
+#############################################
+# Folder: E:/CPPStuff/LightYears/cmake-build-debug/build/LightYears
+
+build build\LightYears\all: phony build\LightYears\LightYearsGame.exe
 
 # =============================================================================
 # Built-in targets
@@ -132,14 +169,14 @@ build all: phony LightYears.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles\3.28.1\CMakeCCompiler.cmake CMakeFiles\3.28.1\CMakeCXXCompiler.cmake CMakeFiles\3.28.1\CMakeRCCompiler.cmake CMakeFiles\3.28.1\CMakeSystem.cmake E$:\CPPStuff\LightYears\CMakeLists.txt E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCCompiler.cmake.in E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCCompilerABI.c E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXCompiler.cmake.in E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXCompilerABI.cpp E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCompilerIdDetection.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCXXCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompileFeatures.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompilerABI.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompilerId.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineRCCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineSystem.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeFindBinUtils.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseImplicitIncludeInfo.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseLibraryArchitecture.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCCompiler.cmake.in E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystem.cmake.in E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCXXCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCompilerCommon.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestRCCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ADSP-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ARMCC-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ARMClang-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\AppleClang-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Borland-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Bruce-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompilerInternal.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Compaq-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Cray-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CrayClang-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Embarcadero-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Fujitsu-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GHS-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GNU-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\HP-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\HP-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IAR-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Intel-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\LCC-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\NVHPC-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\NVIDIA-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\OrangeC-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\PGI-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\PathScale-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SCO-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SDCC-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SunPro-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\TI-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Tasking-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Watcom-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XL-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XL-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XLClang-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\zOS-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\FeatureTesting.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Determine-CXX.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles\3.28.1\CMakeCCompiler.cmake CMakeFiles\3.28.1\CMakeCXXCompiler.cmake CMakeFiles\3.28.1\CMakeRCCompiler.cmake CMakeFiles\3.28.1\CMakeSystem.cmake E$:\CPPStuff\LightYears\CMakeLists.txt E$:\CPPStuff\LightYears\build\LightYears\CMakeLists.txt E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles\3.28.1\CMakeCCompiler.cmake CMakeFiles\3.28.1\CMakeCXXCompiler.cmake CMakeFiles\3.28.1\CMakeRCCompiler.cmake CMakeFiles\3.28.1\CMakeSystem.cmake E$:\CPPStuff\LightYears\CMakeLists.txt E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCCompiler.cmake.in E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCCompilerABI.c E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXCompiler.cmake.in E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXCompilerABI.cpp E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCompilerIdDetection.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCXXCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompileFeatures.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompilerABI.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineCompilerId.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineRCCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeDetermineSystem.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeFindBinUtils.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseImplicitIncludeInfo.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeParseLibraryArchitecture.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCCompiler.cmake.in E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystem.cmake.in E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCXXCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestCompilerCommon.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeTestRCCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ADSP-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ARMCC-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\ARMClang-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\AppleClang-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Borland-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Bruce-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Clang-DetermineCompilerInternal.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Compaq-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Cray-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CrayClang-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Embarcadero-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Fujitsu-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GHS-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GNU-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\HP-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\HP-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IAR-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Intel-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\LCC-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\NVHPC-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\NVIDIA-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\OrangeC-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\PGI-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\PathScale-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SCO-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SDCC-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SunPro-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\TI-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Tasking-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\Watcom-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XL-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XL-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XLClang-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\zOS-C-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Internal\FeatureTesting.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Determine-CXX.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles\3.28.1\CMakeCCompiler.cmake CMakeFiles\3.28.1\CMakeCXXCompiler.cmake CMakeFiles\3.28.1\CMakeRCCompiler.cmake CMakeFiles\3.28.1\CMakeSystem.cmake E$:\CPPStuff\LightYears\CMakeLists.txt E$:\CPPStuff\LightYears\build\LightYears\CMakeLists.txt E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake: phony
 
 
 #############################################

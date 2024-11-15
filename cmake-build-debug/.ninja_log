@@ -1,0 +1,14 @@
+# ninja log v6
+1	79	7533354842277508	build.ninja	6ab6df09e0757ebf
+1	92	7533351880323083	CMakeFiles/LightYearsGame.dir/build/LightYears/src/main.cpp.obj.ddi	c087f1e33caefd5d
+119	579	7533351881505761	CMakeFiles/LightYearsGame.dir/build/LightYears/src/main.cpp.obj	48a60928d2e7e9d3
+92	115	7533351881224669	CMakeFiles/LightYearsGame.dir/CXX.dd	7b712e38130b1606
+92	115	7533351881224669	E:/CPPStuff/LightYears/cmake-build-debug/CMakeFiles/LightYearsGame.dir/CXXModules.json	7b712e38130b1606
+92	115	7533351881224669	CMakeFiles/LightYearsGame.dir/build/LightYears/src/main.cpp.obj.modmap	7b712e38130b1606
+579	939	7533351886096098	LightYearsGame.exe	41c0bb4f6a7faab5
+1	86	7533354881156048	build/LightYears/CMakeFiles/LightYearsGame.dir/src/main.cpp.obj.ddi	d15071528419700d
+87	113	7533354882018151	build/LightYears/CMakeFiles/LightYearsGame.dir/CXX.dd	855b1ac2c06c63df
+87	113	7533354882018151	E:/CPPStuff/LightYears/cmake-build-debug/build/LightYears/CMakeFiles/LightYearsGame.dir/CXXModules.json	855b1ac2c06c63df
+87	113	7533354882018151	build/LightYears/CMakeFiles/LightYearsGame.dir/src/main.cpp.obj.modmap	855b1ac2c06c63df
+117	572	7533354882318828	build/LightYears/CMakeFiles/LightYearsGame.dir/src/main.cpp.obj	1415c38965095f79
+572	888	7533354886866721	build/LightYears/LightYearsGame.exe	1e27c49e9e569965

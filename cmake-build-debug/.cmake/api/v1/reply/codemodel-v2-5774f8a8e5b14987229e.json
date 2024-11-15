@@ -6,13 +6,28 @@
 			[
 				{
 					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.28"
 					},
 					"projectIndex" : 0,
-					"source" : ".",
+					"source" : "."
+				},
+				{
+					"build" : "build/LightYears",
+					"jsonFile" : "directory-build.LightYears-Debug-6b8100ad8cfdcacd5330.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/LightYears",
 					"targetIndexes" : 
 					[
 						0
@@ -25,9 +40,10 @@
 				{
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						1
 					],
-					"name" : "LightYears",
+					"name" : "build/LightYears",
 					"targetIndexes" : 
 					[
 						0
@@ -37,10 +53,10 @@
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 0,
-					"id" : "LightYears::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-LightYears-Debug-0216c7a7a9a08a56e18f.json",
-					"name" : "LightYears",
+					"directoryIndex" : 1,
+					"id" : "LightYearsGame::@60fd134d221d9be095b7",
+					"jsonFile" : "target-LightYearsGame-Debug-73feb49d9d9f4ada09ea.json",
+					"name" : "LightYearsGame",
 					"projectIndex" : 0
 				}
 			]
