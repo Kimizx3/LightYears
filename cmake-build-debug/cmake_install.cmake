@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/build/LightYears")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/CPPStuff/LightYears/cmake-build-debug/_deps/sfml-build/cmake_install.cmake")
+  include("E:/CPPStuff/LightYears/cmake-build-debug/LightYearsEngine/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/CPPStuff/LightYears/cmake-build-debug/build/LightYears/cmake_install.cmake")
+  include("E:/CPPStuff/LightYears/cmake-build-debug/LightYearsGame/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

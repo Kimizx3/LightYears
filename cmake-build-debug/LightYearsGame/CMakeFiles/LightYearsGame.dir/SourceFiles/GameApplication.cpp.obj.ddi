@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "LightYearsGame\\CMakeFiles\\LightYearsGame.dir\\SourceFiles\\GameApplication.cpp.obj",
+            "outputs": [
+                "E:\\CPPStuff\\LightYears\\cmake-build-debug\\vc140.pdb",
+                "LightYearsGame\\CMakeFiles\\LightYearsGame.dir\\SourceFiles\\GameApplication.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

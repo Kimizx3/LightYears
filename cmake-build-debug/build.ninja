@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: build/LightYears
+# Project: LightYears
 # Configurations: Debug
 # =============================================================================
 
@@ -69,31 +69,144 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
+# Object build statements for STATIC_LIBRARY target LightYearsEngine
+
+
+#############################################
+# Order-only phony target for LightYearsEngine
+
+build cmake_object_order_depends_target_LightYearsEngine: phony || LightYearsEngine\CMakeFiles\LightYearsEngine.dir
+
+build LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Application.cpp.obj.ddi: CXX_SCAN__LightYearsEngine_Debug E$:\CPPStuff\LightYears\LightYearsEngine\src\frame\Application.cpp || cmake_object_order_depends_target_LightYearsEngine
+  DEP_FILE = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Application.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Application.cpp.obj.ddi
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
+  INCLUDES = -IE:\CPPStuff\LightYears\LightYearsEngine\include -external:IC:\SFML-2.6.1\include -external:W0
+  OBJ_FILE = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Application.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Application.cpp.obj.ddi.i
+
+build LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Application.cpp.obj: CXX_COMPILER__LightYearsEngine_scanned_Debug E$:\CPPStuff\LightYears\LightYearsEngine\src\frame\Application.cpp || cmake_object_order_depends_target_LightYearsEngine LightYearsEngine\CMakeFiles\LightYearsEngine.dir\CXX.dd LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Application.cpp.obj.modmap
+  DYNDEP_MODULE_MAP_FILE = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Application.cpp.obj.modmap
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
+  INCLUDES = -IE:\CPPStuff\LightYears\LightYearsEngine\include -external:IC:\SFML-2.6.1\include -external:W0
+  OBJECT_DIR = LightYearsEngine\CMakeFiles\LightYearsEngine.dir
+  OBJECT_FILE_DIR = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame
+  TARGET_COMPILE_PDB = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\LightYearsEngine.pdb
+  TARGET_PDB = LightYearsEngine\LightYearsEngine.pdb
+  dyndep = LightYearsEngine/CMakeFiles/LightYearsEngine.dir/CXX.dd
+
+build LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\EntryPoint.cpp.obj.ddi: CXX_SCAN__LightYearsEngine_Debug E$:\CPPStuff\LightYears\LightYearsEngine\src\EntryPoint.cpp || cmake_object_order_depends_target_LightYearsEngine
+  DEP_FILE = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\EntryPoint.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\EntryPoint.cpp.obj.ddi
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
+  INCLUDES = -IE:\CPPStuff\LightYears\LightYearsEngine\include -external:IC:\SFML-2.6.1\include -external:W0
+  OBJ_FILE = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\EntryPoint.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\EntryPoint.cpp.obj.ddi.i
+
+build LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\EntryPoint.cpp.obj: CXX_COMPILER__LightYearsEngine_scanned_Debug E$:\CPPStuff\LightYears\LightYearsEngine\src\EntryPoint.cpp || cmake_object_order_depends_target_LightYearsEngine LightYearsEngine\CMakeFiles\LightYearsEngine.dir\CXX.dd LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\EntryPoint.cpp.obj.modmap
+  DYNDEP_MODULE_MAP_FILE = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\EntryPoint.cpp.obj.modmap
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
+  INCLUDES = -IE:\CPPStuff\LightYears\LightYearsEngine\include -external:IC:\SFML-2.6.1\include -external:W0
+  OBJECT_DIR = LightYearsEngine\CMakeFiles\LightYearsEngine.dir
+  OBJECT_FILE_DIR = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src
+  TARGET_COMPILE_PDB = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\LightYearsEngine.pdb
+  TARGET_PDB = LightYearsEngine\LightYearsEngine.pdb
+  dyndep = LightYearsEngine/CMakeFiles/LightYearsEngine.dir/CXX.dd
+
+build LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Core.cpp.obj.ddi: CXX_SCAN__LightYearsEngine_Debug E$:\CPPStuff\LightYears\LightYearsEngine\src\frame\Core.cpp || cmake_object_order_depends_target_LightYearsEngine
+  DEP_FILE = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Core.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Core.cpp.obj.ddi
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
+  INCLUDES = -IE:\CPPStuff\LightYears\LightYearsEngine\include -external:IC:\SFML-2.6.1\include -external:W0
+  OBJ_FILE = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Core.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Core.cpp.obj.ddi.i
+
+build LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Core.cpp.obj: CXX_COMPILER__LightYearsEngine_scanned_Debug E$:\CPPStuff\LightYears\LightYearsEngine\src\frame\Core.cpp || cmake_object_order_depends_target_LightYearsEngine LightYearsEngine\CMakeFiles\LightYearsEngine.dir\CXX.dd LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Core.cpp.obj.modmap
+  DYNDEP_MODULE_MAP_FILE = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Core.cpp.obj.modmap
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
+  INCLUDES = -IE:\CPPStuff\LightYears\LightYearsEngine\include -external:IC:\SFML-2.6.1\include -external:W0
+  OBJECT_DIR = LightYearsEngine\CMakeFiles\LightYearsEngine.dir
+  OBJECT_FILE_DIR = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame
+  TARGET_COMPILE_PDB = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\LightYearsEngine.pdb
+  TARGET_PDB = LightYearsEngine\LightYearsEngine.pdb
+  dyndep = LightYearsEngine/CMakeFiles/LightYearsEngine.dir/CXX.dd
+
+build LightYearsEngine\CMakeFiles\LightYearsEngine.dir\CXX.dd | E$:\CPPStuff\LightYears\cmake-build-debug\LightYearsEngine\CMakeFiles\LightYearsEngine.dir\CXXModules.json LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Application.cpp.obj.modmap LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\EntryPoint.cpp.obj.modmap LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Core.cpp.obj.modmap: CXX_DYNDEP__LightYearsEngine_Debug LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Application.cpp.obj.ddi LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\EntryPoint.cpp.obj.ddi LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Core.cpp.obj.ddi
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target LightYearsEngine
+
+
+#############################################
+# Link the static library LightYearsEngine\LightYearsEngine.lib
+
+build LightYearsEngine\LightYearsEngine.lib: CXX_STATIC_LIBRARY_LINKER__LightYearsEngine_Debug LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Application.cpp.obj LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\EntryPoint.cpp.obj LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Core.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -MDd -Zi
+  LINK_FLAGS = /machine:x64
+  OBJECT_DIR = LightYearsEngine\CMakeFiles\LightYearsEngine.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = LightYearsEngine\CMakeFiles\LightYearsEngine.dir\LightYearsEngine.pdb
+  TARGET_FILE = LightYearsEngine\LightYearsEngine.lib
+  TARGET_PDB = LightYearsEngine\LightYearsEngine.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build LightYearsEngine\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\CPPStuff\LightYears\cmake-build-debug\LightYearsEngine && "E:\Clion\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build LightYearsEngine\edit_cache: phony LightYearsEngine\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build LightYearsEngine\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\CPPStuff\LightYears\cmake-build-debug\LightYearsEngine && "E:\Clion\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\CPPStuff\LightYears -BE:\CPPStuff\LightYears\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build LightYearsEngine\rebuild_cache: phony LightYearsEngine\CMakeFiles\rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# E:/CPPStuff/LightYears/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
 # Object build statements for EXECUTABLE target LightYearsGame
 
 
 #############################################
 # Order-only phony target for LightYearsGame
 
-build cmake_object_order_depends_target_LightYearsGame: phony || build\LightYears\CMakeFiles\LightYearsGame.dir
+build cmake_object_order_depends_target_LightYearsGame: phony || cmake_object_order_depends_target_LightYearsEngine
 
-build build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj.ddi: CXX_SCAN__LightYearsGame_Debug E$:\CPPStuff\LightYears\build\LightYears\src\main.cpp || cmake_object_order_depends_target_LightYearsGame
-  DEP_FILE = build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj.ddi
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
-  OBJ_FILE = build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj.ddi.i
+build LightYearsGame\CMakeFiles\LightYearsGame.dir\SourceFiles\GameApplication.cpp.obj.ddi: CXX_SCAN__LightYearsGame_Debug E$:\CPPStuff\LightYears\LightYearsGame\SourceFiles\GameApplication.cpp || cmake_object_order_depends_target_LightYearsGame
+  DEP_FILE = LightYearsGame\CMakeFiles\LightYearsGame.dir\SourceFiles\GameApplication.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = LightYearsGame\CMakeFiles\LightYearsGame.dir\SourceFiles\GameApplication.cpp.obj.ddi
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
+  INCLUDES = -IE:\CPPStuff\LightYears\LightYearsGame\HeaderFiles -IE:\CPPStuff\LightYears\LightYearsEngine\include -external:IC:\SFML-2.6.1\include -external:W0
+  OBJ_FILE = LightYearsGame\CMakeFiles\LightYearsGame.dir\SourceFiles\GameApplication.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = LightYearsGame\CMakeFiles\LightYearsGame.dir\SourceFiles\GameApplication.cpp.obj.ddi.i
 
-build build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj: CXX_COMPILER__LightYearsGame_scanned_Debug E$:\CPPStuff\LightYears\build\LightYears\src\main.cpp || cmake_object_order_depends_target_LightYearsGame build\LightYears\CMakeFiles\LightYearsGame.dir\CXX.dd build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj.modmap
-  DYNDEP_MODULE_MAP_FILE = build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj.modmap
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
-  OBJECT_DIR = build\LightYears\CMakeFiles\LightYearsGame.dir
-  OBJECT_FILE_DIR = build\LightYears\CMakeFiles\LightYearsGame.dir\src
-  TARGET_COMPILE_PDB = build\LightYears\CMakeFiles\LightYearsGame.dir\
-  TARGET_PDB = build\LightYears\LightYearsGame.pdb
-  dyndep = build/LightYears/CMakeFiles/LightYearsGame.dir/CXX.dd
+build LightYearsGame\CMakeFiles\LightYearsGame.dir\SourceFiles\GameApplication.cpp.obj: CXX_COMPILER__LightYearsGame_scanned_Debug E$:\CPPStuff\LightYears\LightYearsGame\SourceFiles\GameApplication.cpp || cmake_object_order_depends_target_LightYearsGame LightYearsGame\CMakeFiles\LightYearsGame.dir\CXX.dd LightYearsGame\CMakeFiles\LightYearsGame.dir\SourceFiles\GameApplication.cpp.obj.modmap
+  DYNDEP_MODULE_MAP_FILE = LightYearsGame\CMakeFiles\LightYearsGame.dir\SourceFiles\GameApplication.cpp.obj.modmap
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
+  INCLUDES = -IE:\CPPStuff\LightYears\LightYearsGame\HeaderFiles -IE:\CPPStuff\LightYears\LightYearsEngine\include -external:IC:\SFML-2.6.1\include -external:W0
+  OBJECT_DIR = LightYearsGame\CMakeFiles\LightYearsGame.dir
+  OBJECT_FILE_DIR = LightYearsGame\CMakeFiles\LightYearsGame.dir\SourceFiles
+  TARGET_COMPILE_PDB = LightYearsGame\CMakeFiles\LightYearsGame.dir\
+  TARGET_PDB = LightYearsGame\LightYearsGame.pdb
+  dyndep = LightYearsGame/CMakeFiles/LightYearsGame.dir/CXX.dd
 
-build build\LightYears\CMakeFiles\LightYearsGame.dir\CXX.dd | E$:\CPPStuff\LightYears\cmake-build-debug\build\LightYears\CMakeFiles\LightYearsGame.dir\CXXModules.json build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj.modmap: CXX_DYNDEP__LightYearsGame_Debug build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj.ddi
+build LightYearsGame\CMakeFiles\LightYearsGame.dir\CXX.dd | E$:\CPPStuff\LightYears\cmake-build-debug\LightYearsGame\CMakeFiles\LightYearsGame.dir\CXXModules.json LightYearsGame\CMakeFiles\LightYearsGame.dir\SourceFiles\GameApplication.cpp.obj.modmap: CXX_DYNDEP__LightYearsGame_Debug LightYearsGame\CMakeFiles\LightYearsGame.dir\SourceFiles\GameApplication.cpp.obj.ddi
 
 
 # =============================================================================
@@ -101,49 +214,53 @@ build build\LightYears\CMakeFiles\LightYearsGame.dir\CXX.dd | E$:\CPPStuff\Light
 
 
 #############################################
-# Link the executable build\LightYears\LightYearsGame.exe
+# Link the executable LightYearsGame\LightYearsGame.exe
 
-build build\LightYears\LightYearsGame.exe: CXX_EXECUTABLE_LINKER__LightYearsGame_Debug build\LightYears\CMakeFiles\LightYearsGame.dir\src\main.cpp.obj
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
+build LightYearsGame\LightYearsGame.exe: CXX_EXECUTABLE_LINKER__LightYearsGame_Debug LightYearsGame\CMakeFiles\LightYearsGame.dir\SourceFiles\GameApplication.cpp.obj | LightYearsEngine\LightYearsEngine.lib C$:\SFML-2.6.1\lib\sfml-graphics-d.lib C$:\SFML-2.6.1\lib\sfml-window-d.lib C$:\SFML-2.6.1\lib\sfml-network-d.lib C$:\SFML-2.6.1\lib\sfml-audio-d.lib C$:\SFML-2.6.1\lib\sfml-system-d.lib || LightYearsEngine\LightYearsEngine.lib
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -MDd -Zi
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = build\LightYears\CMakeFiles\LightYearsGame.dir
+  LINK_LIBRARIES = LightYearsEngine\LightYearsEngine.lib  C:\SFML-2.6.1\lib\sfml-graphics-d.lib  C:\SFML-2.6.1\lib\sfml-window-d.lib  C:\SFML-2.6.1\lib\sfml-network-d.lib  C:\SFML-2.6.1\lib\sfml-audio-d.lib  C:\SFML-2.6.1\lib\sfml-system-d.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = LightYearsGame\CMakeFiles\LightYearsGame.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = build\LightYears\CMakeFiles\LightYearsGame.dir\
-  TARGET_FILE = build\LightYears\LightYearsGame.exe
-  TARGET_IMPLIB = build\LightYears\LightYearsGame.lib
-  TARGET_PDB = build\LightYears\LightYearsGame.pdb
+  TARGET_COMPILE_PDB = LightYearsGame\CMakeFiles\LightYearsGame.dir\
+  TARGET_FILE = LightYearsGame\LightYearsGame.exe
+  TARGET_IMPLIB = LightYearsGame\LightYearsGame.lib
+  TARGET_PDB = LightYearsGame\LightYearsGame.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
-build build\LightYears\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\CPPStuff\LightYears\cmake-build-debug\build\LightYears && "E:\Clion\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+build LightYearsGame\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\CPPStuff\LightYears\cmake-build-debug\LightYearsGame && "E:\Clion\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build build\LightYears\edit_cache: phony build\LightYears\CMakeFiles\edit_cache.util
+build LightYearsGame\edit_cache: phony LightYearsGame\CMakeFiles\edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build build\LightYears\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\CPPStuff\LightYears\cmake-build-debug\build\LightYears && "E:\Clion\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\CPPStuff\LightYears -BE:\CPPStuff\LightYears\cmake-build-debug"
+build LightYearsGame\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D E:\CPPStuff\LightYears\cmake-build-debug\LightYearsGame && "E:\Clion\CLion 2024.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\CPPStuff\LightYears -BE:\CPPStuff\LightYears\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build build\LightYears\rebuild_cache: phony build\LightYears\CMakeFiles\rebuild_cache.util
+build LightYearsGame\rebuild_cache: phony LightYearsGame\CMakeFiles\rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
 
-build LightYearsGame: phony build\LightYears\LightYearsGame.exe
+build LightYearsEngine: phony LightYearsEngine\LightYearsEngine.lib
 
-build LightYearsGame.exe: phony build\LightYears\LightYearsGame.exe
+build LightYearsEngine.lib: phony LightYearsEngine\LightYearsEngine.lib
+
+build LightYearsGame: phony LightYearsGame\LightYearsGame.exe
+
+build LightYearsGame.exe: phony LightYearsGame\LightYearsGame.exe
 
 # =============================================================================
 # Folder targets.
@@ -153,14 +270,21 @@ build LightYearsGame.exe: phony build\LightYears\LightYearsGame.exe
 #############################################
 # Folder: E:/CPPStuff/LightYears/cmake-build-debug
 
-build all: phony build\LightYears\all
+build all: phony LightYearsEngine\all LightYearsGame\all
 
 # =============================================================================
 
 #############################################
-# Folder: E:/CPPStuff/LightYears/cmake-build-debug/build/LightYears
+# Folder: E:/CPPStuff/LightYears/cmake-build-debug/LightYearsEngine
 
-build build\LightYears\all: phony build\LightYears\LightYearsGame.exe
+build LightYearsEngine\all: phony LightYearsEngine\LightYearsEngine.lib
+
+# =============================================================================
+
+#############################################
+# Folder: E:/CPPStuff/LightYears/cmake-build-debug/LightYearsGame
+
+build LightYearsGame\all: phony LightYearsGame\LightYearsGame.exe
 
 # =============================================================================
 # Built-in targets
@@ -169,14 +293,14 @@ build build\LightYears\all: phony build\LightYears\LightYearsGame.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles\3.28.1\CMakeCCompiler.cmake CMakeFiles\3.28.1\CMakeCXXCompiler.cmake CMakeFiles\3.28.1\CMakeRCCompiler.cmake CMakeFiles\3.28.1\CMakeSystem.cmake E$:\CPPStuff\LightYears\CMakeLists.txt E$:\CPPStuff\LightYears\build\LightYears\CMakeLists.txt E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | C$:\SFML-2.6.1\lib\cmake\SFML\SFMLConfig.cmake C$:\SFML-2.6.1\lib\cmake\SFML\SFMLConfigDependencies.cmake C$:\SFML-2.6.1\lib\cmake\SFML\SFMLConfigVersion.cmake C$:\SFML-2.6.1\lib\cmake\SFML\SFMLSharedTargets-debug.cmake C$:\SFML-2.6.1\lib\cmake\SFML\SFMLSharedTargets-release.cmake C$:\SFML-2.6.1\lib\cmake\SFML\SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles\3.28.1\CMakeCXXCompiler.cmake CMakeFiles\3.28.1\CMakeRCCompiler.cmake CMakeFiles\3.28.1\CMakeSystem.cmake E$:\CPPStuff\LightYears\CMakeLists.txt E$:\CPPStuff\LightYears\LightYearsEngine\CMakeLists.txt E$:\CPPStuff\LightYears\LightYearsGame\CMakeLists.txt E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles\3.28.1\CMakeCCompiler.cmake CMakeFiles\3.28.1\CMakeCXXCompiler.cmake CMakeFiles\3.28.1\CMakeRCCompiler.cmake CMakeFiles\3.28.1\CMakeSystem.cmake E$:\CPPStuff\LightYears\CMakeLists.txt E$:\CPPStuff\LightYears\build\LightYears\CMakeLists.txt E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake: phony
+build C$:\SFML-2.6.1\lib\cmake\SFML\SFMLConfig.cmake C$:\SFML-2.6.1\lib\cmake\SFML\SFMLConfigDependencies.cmake C$:\SFML-2.6.1\lib\cmake\SFML\SFMLConfigVersion.cmake C$:\SFML-2.6.1\lib\cmake\SFML\SFMLSharedTargets-debug.cmake C$:\SFML-2.6.1\lib\cmake\SFML\SFMLSharedTargets-release.cmake C$:\SFML-2.6.1\lib\cmake\SFML\SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles\3.28.1\CMakeCXXCompiler.cmake CMakeFiles\3.28.1\CMakeRCCompiler.cmake CMakeFiles\3.28.1\CMakeSystem.cmake E$:\CPPStuff\LightYears\CMakeLists.txt E$:\CPPStuff\LightYears\LightYearsEngine\CMakeLists.txt E$:\CPPStuff\LightYears\LightYearsGame\CMakeLists.txt E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake E$:\Clion\CLion$ 2024.1.4\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake: phony
 
 
 #############################################

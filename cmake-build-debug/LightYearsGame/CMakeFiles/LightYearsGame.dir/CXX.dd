@@ -1,0 +1,3 @@
+ninja_dyndep_version = 1.0
+build LightYearsGame\CMakeFiles\LightYearsGame.dir\SourceFiles\GameApplication.cpp.obj: dyndep
+
