@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/CPPStuff/LightYears/cmake-build-debug/_deps/sfml-build/src/SFML/System/sfml-system.rc
+winresrc.h
+E:/CPPStuff/LightYears/cmake-build-debug/_deps/sfml-build/src/SFML/System/winresrc.h
+
