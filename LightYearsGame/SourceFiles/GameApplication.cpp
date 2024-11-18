@@ -1,4 +1,6 @@
 #include <GameApplication.h>
+#include <frame/World.h>
+#include "frame/Actor.h"
 
 ly::Application* GetApplication()
 {
@@ -7,5 +9,9 @@ ly::Application* GetApplication()
 
 namespace ly
 {
-
+    GameApplication::GameApplication()
+    {
+        weak<World> newWorld = LoadWorld<World>();
+        newWorld.lock()->SpawnActor<Actor>();
+    }
 }

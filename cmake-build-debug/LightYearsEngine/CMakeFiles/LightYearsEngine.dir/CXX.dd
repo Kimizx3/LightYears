@@ -5,3 +5,7 @@ build LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\EntryPoint.cpp.obj: d
 
 build LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Core.cpp.obj: dyndep
 
+build LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\World.cpp.obj: dyndep
+
+build LightYearsEngine\CMakeFiles\LightYearsEngine.dir\src\frame\Actor.cpp.obj: dyndep
+

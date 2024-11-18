@@ -1,3 +1,4 @@
+#pragma once
 #include "stdio.h"
 #include "memory"
 #include "map"
@@ -15,7 +16,7 @@ namespace ly
     using weak = std::weak_ptr<T>;
 
     template<typename T>
-    using TArray = std::vector<T>;
+    using List = std::vector<T>;
 
     template<typename keyType, typename valType, typename Pr = std::less<keyType>>
     using Map = std::map<keyType, valType, Pr>;
